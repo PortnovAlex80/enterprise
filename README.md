@@ -19,7 +19,7 @@
 </br> 
 <details>
 <summary> &#128736; Примеры User Story mapping </summary>
-https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  
+https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  </br> 
 https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы по технике постановки задач
 </details>
 </br>   
