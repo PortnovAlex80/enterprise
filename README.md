@@ -1,7 +1,7 @@
 # Разработка Enterprise-приложений (Java)
 
-Продолжение портфолио. Часть 2.
-Часть 1 [тут](https://github.com/PortnovAlex80/node_js_pro#readme)
+Продолжение портфолио. Часть 2.  
+Часть 1 [Система управления складом (WMS) - серверная часть (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)
 
 ⚠️**ТОЛЬКО НАЧАЛ! Плановый срок завершения - 09\2023** ⚠️  
 Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и учебного проекта курса.
