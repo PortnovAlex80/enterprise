@@ -21,6 +21,7 @@
 <summary> &#128736; Примеры User Story mapping </summary>
 https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  </br> 
 https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы по технике постановки задач
+  https://habr.com/ru/companies/oleg-bunin/articles/537862/ DDD
 </details>
 </br>   
 Результат блока:  
