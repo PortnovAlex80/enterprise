@@ -241,6 +241,7 @@ flowchart LR
   https://www.atlassian.com/ru/agile/project-management/user-stories - User story
 https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  </br> 
 https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы по технике постановки задач
+  https://www.visual-paradigm.com/learning/handbooks/agile-handbook/user-story.jsp - трассировка User story  с процессами
   https://www.aha.io/roadmapping/guide/release-management/what-is-user-story-mapping - заметка о User story mapping
   https://habr.com/ru/companies/oleg-bunin/articles/537862/ DDD
   https://docs.google.com/presentation/d/1LctHq0gBBtWJpLXD3RDdnQ5pAOBUpiKK07tpTCsFRK0/edit#slide=id.gbf463c658_0_5 Conceptual Architecture of
