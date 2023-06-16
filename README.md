@@ -16,15 +16,7 @@
 </br> 
 ⚠️Разработка требований — самый важный этап в жизненном цикле ПО. Если вы думаете, что требования нужны только аналитикам, то сильно заблуждаетесь, ведь если неправильно разработать требования, то о качественном продукте можно забыть.
 
-<details>
-<summary> &#128736; Полезные ссылки (примеры User Story mapping) </summary>
-  https://www.atlassian.com/ru/agile/project-management/user-stories - User story
-https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  </br> 
-https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы по технике постановки задач
-  https://habr.com/ru/companies/oleg-bunin/articles/537862/ DDD
-  https://docs.google.com/presentation/d/1LctHq0gBBtWJpLXD3RDdnQ5pAOBUpiKK07tpTCsFRK0/edit#slide=id.gbf463c658_0_5 Conceptual Architecture of
-DOOM 3
-</details>
+
 </br>   
 </br> 
 <details>
@@ -138,6 +130,15 @@ Elevator pitch
 
 </details>
 
+<details>
+<summary> &#128736; Полезные ссылки (примеры User Story mapping) </summary>
+  https://www.atlassian.com/ru/agile/project-management/user-stories - User story
+https://youtu.be/vy_60LFvRNA Требования в Agile: живой User Story Mapping  </br> 
+https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы по технике постановки задач
+  https://habr.com/ru/companies/oleg-bunin/articles/537862/ DDD
+  https://docs.google.com/presentation/d/1LctHq0gBBtWJpLXD3RDdnQ5pAOBUpiKK07tpTCsFRK0/edit#slide=id.gbf463c658_0_5 Conceptual Architecture of
+DOOM 3
+</details>
 
 
 
