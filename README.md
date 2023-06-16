@@ -246,4 +246,4 @@ https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы 
 DOOM 3
 </details>
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/node_js_pro/developer/api-warehouse/diagrams/apparchi.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/blob/main/diagrams/userstorymapping.iuml
