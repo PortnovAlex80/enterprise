@@ -1,11 +1,21 @@
-@startuml
-rectangle "As a customer, I want to browse the\ncatalog and view different furniture\ncategories and products." as US1
-rectangle "As a customer, I want to search for\nspecific furniture items by keywords\nor filters." as US2
-rectangle "As a customer, I want to view detailed\ninformation about a specific furniture\nproduct, including images, description,\nspecifications, and customer reviews." as US3
-rectangle "As a customer, I want to add furniture\nitems to my cart and proceed to checkout." as US4
-rectangle "As a customer, I want to create an\naccount and save my favorite furniture\nitems for future reference." as US5
+@startboard
+Activity 1
++User Task 1a
+++Story 1 Release 1
+++Story 2 Release 1
++User Task 1b
+++Story 3 Release 1
++++Story 4 Release 1
+++++Story 5 Release 2
 
-US1 -- US2
-US2 -- US3
-US2 -- US4
-@enduml
+Activity 2
++User Task 2
++++Story 6 Release 1
++++Story 7 Release 1
++++Story 8 Release 2
+Activity 3
+
++User Task 3
+++++Story 9 Release 2
+++++Story 10 Release 3
+@endboard
