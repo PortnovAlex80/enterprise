@@ -29,7 +29,7 @@
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
     POB["Product Owner Backlog:\n User stories"]
-    DES["Design \n(System analyst, Team-lead)"]
+    DES["Design: transorming User stories to tasks \n(System analyst, Team-lead)"]
     DEV["Development team Backlog: \n Tasks"]
     POB --> DES
     DES --> DEV
