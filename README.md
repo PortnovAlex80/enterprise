@@ -25,12 +25,12 @@ _Однако стоит учесть, что критерии приемки о
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
-    POB["`**Product Owner Backlog**\n **User stories**`"]
-    DES["`Design \n(System analyst, Team-lead)`"]
-    DEV["`Development team Backlog`"]
+    POB["Product Owner Backlog:\n User stories"]
+    DES["Design \n(System analyst, Team-lead)"]
+    DEV["Development team Backlog: \n Tasks"]
     POB --> DES
-DES --> DEV
-  ```  
+    DES --> DEV
+```  
 Обобщенный флоу разработки: **Product Owner Backlog: User stories -> Design (System analyst, Team-lead) -> Development team Backlog**
 
 <details>
