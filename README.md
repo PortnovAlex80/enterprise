@@ -245,3 +245,5 @@ https://youtu.be/qUTV5m7zk9Q User Story Mapping: вопросы и ответы 
   https://docs.google.com/presentation/d/1LctHq0gBBtWJpLXD3RDdnQ5pAOBUpiKK07tpTCsFRK0/edit#slide=id.gbf463c658_0_5 Conceptual Architecture of
 DOOM 3
 </details>
+
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/node_js_pro/developer/api-warehouse/diagrams/apparchi.iuml)
