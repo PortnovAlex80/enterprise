@@ -1,6 +1,6 @@
 # Разработка Enterprise-приложений
   
-> ## "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
+> ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
 Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и учебного проекта курса.
@@ -16,7 +16,7 @@
 ☑️ - чек листы
 
 ## Введение
-Продолжение портфолио. Часть 2.  
+Часть 2. Разработка Enterprise-приложений. Текущий репозиторий.
 Часть 1 [Система управления складом (WMS) - серверная часть (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)
 
 ⚠️**Репозиторий в работе на начальной стадии. Плановый срок завершения - 09\2023** ⚠️  
