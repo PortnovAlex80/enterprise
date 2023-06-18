@@ -1,5 +1,8 @@
-# Разработка Enterprise-приложений (Java)  
+# Разработка Enterprise-приложений
   
+> ## "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
+> _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
+
 Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и учебного проекта курса.
   
 Содержание:  
