@@ -5,7 +5,7 @@
 
 Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и учебного проекта курса.
 
-Выполнение "Портфолио.Часть 1.[Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) 
+Выполнение "Портфолио.Часть 1.[Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).
   
 Содержание:  
 [Введение](#введение)  
