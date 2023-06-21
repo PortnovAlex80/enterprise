@@ -1,4 +1,5 @@
 @startboard
+skinparam handwritten true
 Поиск новых </br>\nобъявлений
 +Просмотр объявлений</br>\n на досках
 ++Увидеть список\n </br>недвижимости Release 1
