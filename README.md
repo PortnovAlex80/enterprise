@@ -1,5 +1,19 @@
 # Разработка Enterprise-приложений
-  
+
+- Activity
+  - New task
+    - User story 1
+    - User story 2
+    - User story 3
+  - Another task
+    - User story 4
+- Another activity
+  - Subtask
+    - User story 5
+    - User story 6
+
+
+
 > ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
