@@ -22,6 +22,8 @@
 Часть 1 [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)  
 Часть 2. Разработка Enterprise-приложений. Текущий репозиторий.  
 
+https://gitlab.com/groups/string-concat-enterprise   
+
 ⚠️**Репозиторий в работе на начальной стадии. Плановый срок завершения - 09\2023** ⚠️  
   
 ## Блок Разработка и управление требованиями
