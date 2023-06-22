@@ -279,6 +279,107 @@ DOOM 3
 
 ### User story map
 
+Разработка User story map по учебному интервью (приближено к реальности за счет интервью Заказчика Агенства недвижимости)
+
+<details>
+<summary> Сбор бизнес-требований. Интервью с Заказчиком </summary>
+
+![](https://www.plantuml.com/plantuml/svg/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
+
+[Ссылка на PlantUML Editor](https://www.plantuml.com/plantuml/uml/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
+
+- Легенда: мы пришли к Алексею, рук агентства недвижимости (когда-то занимался CRM-системами для агентств недвижимости)
+    - посреднические услуги на рынке недвижимости
+    - агентство сводит продавца и покупателя
+    - жилая и только вторичка
+    - россиийский рынок
+    - каждое утро каждый из риелторов начинает с просмотра досок объявлений (Авито, ЦИАН и пр.)
+        - смотрит какие появились новые объекты недвижимости
+        - фильтрует по региону города, т.к. знает инфраструктуру
+        - находит новые объекты, выписывает на бумажку / закладки
+        - смотрит, является ли объявление от собственника или нет
+        - отсеивает фейковые объявления (от других риелторов)
+        - обзванивает по контактам
+        - цель: представиться, договориться о встрече
+        - в зависимости от реакции так или иначе:
+            - договаривается
+            - выезжает на объект
+            - записывает первичную инфу об объекте недвижимости (метраж, кол-во комнат, эл-во, газоснабжение)
+            - на объекте недвижимости он должен попытаться заключить агентский договор
+            - договор обязуется риелтора в течение 3 месяцев продать или предоставить услуги продажи объект недвижимости по определенной цене
+            - а продавец платит агентское вознаграждение
+            - есть пакет с документами
+            - фоткает документы на сам объект + подтверждение владение
+        - дальше он едет в офис
+        - предполагает примерную стоимость объекта за счет опыта и истории (коллаборативная фильтрация)
+        - раскладывает всю инфу:
+            - если есть договор, то надо красиво оформить объект от имени агентства
+            - первым делом он отправляет ПО ПОЧТЕ фотки отдельному специалисту, который занимается объявлениями:
+                - пишет письмо: объект недв, адрес, собственник, прикладывает фотки и текст, объясняющий как бы он хотел представить объект (достоинства)
+                - специальный маркетолог пишет красивый текст и заводит в ЦИАНе
+            - отправляет пакет документов юристам ПО ПОЧТЕ, которые умеют по паспортным данным и кадастру найти / проверить риски (родственник, доля, несовершеннолетние, etc.)
+            - у юриков есть доступ к полулегальным данным
+            - проверяют на юр бесопасность и чистоту
+            - юр. заключение
+            - ??? заводится паспорт объекта в базе ТАБЛИЦУ В ГУГЛЕ ???
+        - если есть договор, то нужна рекламная компания
+            - девочка завела нам объявление на сайте / Авито (хотя поначалу это был сам риелтор)
+            - агент перепроверяет (данные, фотки) — последняя точка контроля
+            - при этом нужно проконтролировать, что клиент снял свое объявление (а также неиспользование услуг др. риелторов)
+    - в течение дня риелтор принимает или сам делает звонки:
+        - цель: свести покупателя / продавца
+        - назначает встречи-просмотры объектов для покупателей
+        - у потенциального покупателя нужно узнать способ оплаты: наличка / карта / etc.
+        - если покупатель с продавцом договорились, и у покупателя есть быть собственный риелтор и договор на услуги, то представители могут договориться о цене / поторговаться, но если нет, наш агент должен предложить покупателю (лиду) другие объекты — тут мы должны как-то его передать нашим другим риелторам
+        - поэтому нам нужен доступ к БД наших объявлений, чтобы передать другому нашему риелтору
+        - для передачи нужно собрать критерии желаемого объекта (например, метро в 10 мин, окна на юг)
+        - если договорились, то нужно забронировать объект недвижимости
+            - внутри нашей БД поставить отметку, что оно забронировано
+            - чтобы не продавали или хотя бы звонили уточнили
+            - системы очередей нет
+            - выключаем объекты недвижимости на досках объявлений
+            - У НАС НЕ ЭЛИТНАЯ НЕДВИЖИМОСТЬ
+            - схема с бронированием означает, что человек платит какую-то сумму денег, а мы на паузу маркетинг (деньги у нас в любом случае)
+            - схема с задатком — если сделка проходит, то сумма идет в сумму сделки, иначе — риелтор себе забирает
+            - дальше идет подготовка сделки
+            - далее должны быть готовы юр заключение (риски)
+            - покупателю дают все честные данные, иначе портится репутация и могут быть суды
+            - юридическая оценка — процесс параллельный
+            - !!! в некоторых случаях когда у покупателя нет денег как таковых, но есть квартира, которую он хочет продать, докинуть денег и купить получше !!!
+                - в этом случае может быть матч, но у покупателя тоже может быть кв. чтобы купить эту
+                - в этом случае вся банда идет в МФЦ
+            - далее мы договориваемся с продавцом и покупателем о проведении сделки
+            - вся банда в помещении банка / ???
+                - документы покупателя тоже нужно заранее проверить
+                - подписывают документы
+                - производится первоначальный взнос 
+                - пачка доков отправляется в МФЦ; ждите (там тоже свои юристы, спецы по кадастровым учетом и пр.)
+                - далее отправляют СМС всем заинтересованным сторонам, в этот момент переходит право собственности, а агент может требовать агентское вознаграждение
+                - АВ — фиксированная сумма или %
+                - далее звонок продавцу — извольте платить
+                - продавец оплачивает
+                - далее объект недвижимости отправляет в архив
+                - проставляется реальная сумма сделка
+                - используется для последующей статистики
+    - самый ресурсозатратный:
+        - утренний просмотр объявлений
+        - занесение объявлений в EXCEL-список
+        - публикация маркетинговых версий объявлений (внешние и внутренняя платформа)
+        - контроль / звонки по объявлению
+        - выбор правильного риелтора на тот или иной входящий звонок по объявлению агентства (есть решения от Билайна с виртуальной АТС, но сейчас как-будто их нет)
+        - сбор статистики просмотров объявлений
+    - красивый план помещения повышает конверсию
+    - сопоставление агентов и объектов при входящих звонках дежурствах
+    - размещаем на тех досках, которые наиболее выгодны в каждом городе, а также на сайте агентства
+    - стата:
+        - во всей России: Авито
+        - в Москве: ЦИАН
+        - в Тольятти и др. городах: местные доски
+        - соцсети (ТГ, ВК, пр.) — больше аренда
+
+</details>
+
+
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymapping.iuml)
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymap.iuml)
 
