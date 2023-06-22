@@ -292,5 +292,8 @@ DOOM 3
 </details>
 
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymapping.iuml)
+![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymap.iuml)
+
+
 
 
