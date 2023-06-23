@@ -3,29 +3,20 @@
 > ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
-Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и учебного проекта курса.
+Вторая часть портфолио: Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и проекта курса.
+Первая часть портфолио: [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).  
+https://gitlab.com/groups/string-concat-enterprise   
 
-Выполнение "Портфолио.Часть 1.[Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).
-  
+⚠️**Репозиторий в работе на начальной стадии. Плановый срок завершения - 09\2023** ⚠️  
+
 Содержание:  
-[Введение](#введение)  
 [Разработка и управление требованиями](#блок-разработка-и-управление-требованиями)
-
 
 📝 - пометки
 🔗 - ссылки
 📖 - описание
 ☑️ - чек листы
 
-## Введение
-
-Часть 1 [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)  
-Часть 2. Разработка Enterprise-приложений. Текущий репозиторий.  
-
-https://gitlab.com/groups/string-concat-enterprise   
-
-⚠️**Репозиторий в работе на начальной стадии. Плановый срок завершения - 09\2023** ⚠️  
-  
 ## Блок Разработка и управление требованиями
 
 ### Введение
@@ -279,14 +270,17 @@ DOOM 3
 
 ### User story map
 
-Разработка User story map по учебному интервью (приближено к реальности за счет интервью Заказчика Агенства недвижимости)
+Разработка User story map по учебному интервью (приближено к реальности за счет интервью Заказчика Агенства недвижимости). 
+
+Этапы работы с Пользовательскими историями:
+- [интервью с Заказчиком](#интервью-с-заказчиком)
+- [разработка User Story Map](#user-story-map)
+- [разработка для некоторых User story Use cases](#use-cases-for-user-story)
+
+#### Интервью с Заказчиком
 
 <details>
 <summary> Сбор бизнес-требований. Интервью с Заказчиком </summary>
-
-![](https://www.plantuml.com/plantuml/svg/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
-
-[Ссылка на PlantUML Editor](https://www.plantuml.com/plantuml/uml/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
 
 - Легенда: мы пришли к Алексею, рук агентства недвижимости (когда-то занимался CRM-системами для агентств недвижимости)
     - посреднические услуги на рынке недвижимости
@@ -379,11 +373,16 @@ DOOM 3
 
 </details>
 
+#### User story map
+
+![](https://www.plantuml.com/plantuml/svg/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
+
+[Ссылка на PlantUML Editor](https://www.plantuml.com/plantuml/uml/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
 
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymapping.iuml)
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymap.iuml)
 
-### Use cases for User story
+#### Use cases for User story
 
 Для примера, возьмем фрагмент Пользовательской карты историй.
 
