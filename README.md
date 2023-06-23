@@ -3,8 +3,20 @@
 > ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
-Вторая часть портфолио: Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и проекта курса.  
-Первая часть портфолио: [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).  
+👋 **Добро пожаловать на страницу репозитория моего проекта-портфолио, где я выступаю в роли software-engineer.**
+
+Настоящий репозиторий представляет собой фиксацию артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений(Java)](https://howto.stringconcat.com/enterprise) и проекта курса.  
+Кроме этого, портфолио содержит 1 часть, связанную с разработкой системы управления складом (WMS) с использованием backend-технологий NodeJS/TS (учебный упрощенный проект). Первая часть портфолио: [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).  В первой части рассмотрен сквозной процесс проектирования приложения, начиная от требований до реализации.  
+Благодарю вас за интерес к моему проекту. Если у вас возникнут вопросы или комментарии, не стесняйтесь обращаться.
+
+👋 _Welcome to the repository page of my portfolio project, where I act as a software engineer.
+
+This repository serves as a record of knowledge artifacts from the [Development of Enterprise Applications Without Pain and Regret course (Java)](https://howto.stringconcat.com/enterprise) and the course project. Additionally, the portfolio includes Part 1 related to the development of a Warehouse Management System (WMS) using NodeJS/TS backend technologies (a simplified educational project). The first part of the portfolio, ["Warehouse Management System (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)," serves as an introduction to the principles of GRASP (pattern of assigning responsibilities) & GoF (Gang-of-Four). It covers the end-to-end process of application design, starting from requirements to implementation.
+
+Thank you for your interest in my project. If you have any questions or comments, feel free to reach out._
+
+
+
 https://gitlab.com/groups/string-concat-enterprise   
 
 ⚠️**Репозиторий в работе на начальной стадии. Плановый срок завершения - 09\2023** ⚠️  
