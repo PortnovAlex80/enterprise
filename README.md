@@ -3,7 +3,7 @@
 > ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
-<div style="text-align: justify;">
+<p align="justify">
 👋 **Добро пожаловать на страницу репозитория моего проекта-портфолио, где я выступаю в роли software-engineer.**
 
 Настоящий репозиторий представляет собой фиксацию артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений(Java)](https://howto.stringconcat.com/enterprise) и проекта курса.  Цель учебного проекта - показать сквозной процесс работы с требованиями, проектирования, имплементации, тестирования  и  доставки программного обеспечения с применением современных методик и процессов разработки.  
@@ -19,7 +19,7 @@
 _Additionally, the portfolio includes a section focused on the development of a Warehouse Management System (WMS) using backend technologies such as NodeJS/TS, which serves as a simplified educational project. The first part of the portfolio, [Warehouse Management System (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme), provides an introduction to the principles of **GRASP** (pattern of assigning responsibilities) and **GoF** (Gang-of-Four). It covers the end-to-end application design process, starting from requirements and extending to implementation._
 
 _Thank you for your interest in my project. If you have any questions or comments, feel free to reach out._
-</div>
+</p>
 
 
 https://gitlab.com/groups/string-concat-enterprise   
