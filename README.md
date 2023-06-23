@@ -11,7 +11,13 @@ https://gitlab.com/groups/string-concat-enterprise
 
 Содержание:  
 [Разработка и управление требованиями](#блок-разработка-и-управление-требованиями)
-
+- [Введение](#введение)
+- [Принципы формирования беклога](#Принципы-формирования-беклога)
+- [Флоу работы с требованиями на проекте](#флоу-работы-с-требованиями-на-проекте)
+- [интервью с Заказчиком](#интервью-с-заказчиком)
+- [разработка User Story Map](#user-story-map)
+- [разработка для некоторых User story Use cases](#use-cases-for-user-story)
+- 
 📝 - пометки
 🔗 - ссылки
 📖 - описание
@@ -377,11 +383,15 @@ DOOM 3
 
 ![](https://www.plantuml.com/plantuml/svg/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
 
+<details>
+<summary> 🔗 Ссылки на графическое представление User story map</summary>
+  
 [Ссылка на PlantUML Editor](https://www.plantuml.com/plantuml/uml/SYWkIImgAKygvbBFA2afABRIro_8ISmhAStDqKlEpzK7okYcP2Qc5oNcSd5fAIW4-Vk701bQ2e3QgsMtQIY8xliLNe84OiyAyGbiWHri-mrftJIKbWGX5YmeK8KrSjsuTXp7-OMPFsBEyRLqvLmR1yGcsDTppZncpjmYtwMMGa-aZ6HhZwbUwZIoXrjzhmj9PIEPVIXa_UhuPIGVvGxlUXgzDZJWEf7Qu9NzdkeaY0Hp4icAXgKaEWKs0BR7dHIDKP09E02NTbWOOMQmAp0dzX078BheWUpW6a19zToyFP0Rea_qL59YuR2CddWvku_rGyV9skKuWR7ZbJeKnjnb_DD8Dtg5R2NHSmGuFkiGc0xjFRCW2mI2Cjn9tQRtBtv9pXyxAy1AUdQJVPnOFRAUNZQbbeHqwt1hZZX3gBnE4PXidUkiyRhIANyNUc7sq_xYX3d2EQMHV97Slj2OGryX470KiYLBJUFSAvKtlb99qQSGad1ECZDBJ2LaNdBU4cViejkWKWrTK5k-D6aBUOvIZcyztFqWWjMK7EFJYPLy_PyZ52sIRoXDHuF3iDH6ATOPnWjIWV4FoMXQcaN1bgJXS5WCQ9Kgs3aXwfdBw8uvdvb1spIpAeVHRBOTnL8r7NdKpYENWvdUS-VCzO8pnLmJMRMz7MBcuj4PpFRSwAKJbnUdu_gCCqwGuoanjoqGMlJ4iEG49fpj5e0Zp1D7veH7VXbTl2WwZkNUKoAvA-HDnlKUrrvfpSAJWK7QYeXVn9MNYqxe7EWjILqRA57SIUo02rbZyXrEs4x5NyAv7q0naOf2ub2bRI6pOLhz82Nrjj6vv8PDVUfsGIJ-tNI_Lzd-VG9YAV0wSgluYF6x9RM7JATXS7ZLT4ttM-dcUp0Zs8qo7BzEWl231ETIyGZQX9PqDvpCynTF8xcM31MJ74ivTYZwx61u2xaC98KgfE8AuSsSOYpTNSPy4mk_ThZHmt5j7tFi89q5Oj2O_MTpCvrf_5XsdM7fJEj_8Hr_fNvbdqh9E7WRb8gP7dQ_V98KUaGO50BiEDZObVYdyjpi6CyQLWCJsowY4HGZE7ZhCkPnY812mWNbGSxTVz4UIkLVtBsHUt_antBBTfVjHl0960tZu01WtTD73sysZXMZJULAxG0tvcDXxtv_gOnTbqaAXkMjke4K1yXHJt3baZGtWRv3VdHWy1LqRwJ561Ae1otpA3hAJ_v08pMS0h6HfANHkRlBAO3jaIEunK74CNVBYDKfEejxl0v_8Gbu6g--OVdCGSYRTIOPhoRMeYasRrXyQ6Hw64-Xqxs_otY_7JrxU_p6_X_z6m00)
 
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymapping.iuml)
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymap.iuml)
 
+</details>
 #### Use cases for User story
 
 Для примера, возьмем фрагмент Пользовательской карты историй.
