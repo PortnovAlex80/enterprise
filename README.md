@@ -3,7 +3,7 @@
 > ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
-Вторая часть портфолио: Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и проекта курса.
+Вторая часть портфолио: Репозиторий для фиксации артефактов знаний с курса [Разработка Enterprise-приложений без боли и сожалений](https://howto.stringconcat.com/enterprise) и проекта курса.  
 Первая часть портфолио: [Система управления складом (WMS) (backend NodeJS/TS)](https://github.com/PortnovAlex80/node_js_pro#readme)" является подводкой к принципам **GRASP** (pattern of assigning responsibilities) & **GoF** (Gang-of-Four).  
 https://gitlab.com/groups/string-concat-enterprise   
 
