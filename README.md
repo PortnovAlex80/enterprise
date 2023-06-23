@@ -392,6 +392,7 @@ DOOM 3
 ![User story mapping](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/PortnovAlex80/enterprise/main/diagrams/userstorymap.iuml)
 
 </details>
+
 #### Use cases for User story
 
 Для примера, возьмем фрагмент Пользовательской карты историй.
