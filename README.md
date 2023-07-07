@@ -298,6 +298,52 @@ flowchart LR
 
 </details>
 
+<details>
+<summary> 📝 Краткая памятка по документированию в Swagger </summary>
+  
+Общая структура:
+- openapi: 3.0.0
+- info: 
+- servers:
+- paths:
+- tags:
+- components:
+
+Важно описывать в decription каждый параметр запроса или объект ответа, насыщать реальными примерами из прода. В редких случая, при необходимости, вставлять диаграммы или поясняющие схемы.
+
+Блок info:
+  title: Документация к API приложения Enterprise
+  description: Тестовый API для приложения Enterprise
+  contact:
+    name: TopoCOnsalt
+  version: 1.0.0
+
+Блок servers:
+  - url: http://lazurit.local/apimobile
+    description: Development API server
+
+Блок paths:
+  /v1/ products/:
+    get:
+      tags:
+        - Catalog
+      operationId: get_products
+      summary: Получение списка продуктов из Каталога
+      deprecated: false
+      parameters
+      responses
+
+Блок tags:
+  - name: Catalog
+    description: Содержит методы, связанные с каталогом товаров
+
+Блок components:
+    schemas:
+    securitySchemes
+    responses
+    examples
+
+</details>
 
 <details>
 <summary> 🔗 Полезные ссылки (примеры User Story mapping) </summary>
