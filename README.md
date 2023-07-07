@@ -319,7 +319,7 @@ flowchart LR
   version: 1.0.0
 
 Блок servers:
-  - url: http://lazurit.local/apimobile
+  - url: http:/swagger.editor.io
     description: Development API server
 
 Блок paths:
