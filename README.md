@@ -619,6 +619,8 @@ DOOM 3
 | docker ps   | Print out information about all of the running contaiters                |
 | docker exec -it [conteiner id] [cmd]      | Execute the given command in a running container                  |
 | docker logs [container id]    | Print out logs from given container|
+| docker-compose up/down ]    | Запуск\остановка контейнеров |
+
 </details>
 
 Зачем нужен этап настройки инфраструктуры - это позволяет настроить единую среду для всей команды разработки. После настройки инфраструктуры проекта, команда будет сосредоточена только на написании кода.
