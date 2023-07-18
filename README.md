@@ -639,5 +639,8 @@ repositories {
 
 https://detekt.dev/docs/intro
 
+## Архитектурные характеристики
 
+Архитектурные характеристики и работа с NFRs приведена в закрытой части репозитория и будет доступна на интерьвью.
 
+[NFRs and Arch kata](https://github.com/PortnovAlex80/enterprise_top/blob/main/README.md)
