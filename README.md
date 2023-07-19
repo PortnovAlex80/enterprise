@@ -644,3 +644,11 @@ https://detekt.dev/docs/intro
 Архитектурные характеристики и работа с NFRs приведена в закрытой части репозитория и будет доступна на интерьвью.
 
 [NFRs and Arch kata](https://github.com/PortnovAlex80/enterprise_top/blob/main/NFRs.md)
+
+Технико-бизнесовый словарь
+| Бизнес требования  | Архитектурная характеристика |
+|--|--|
+| Time-to-market  | Agility, testability, deploability  |
+| User satisfaction  | Perfomance, aviability, fault tolerance, testability, deploability, agility, security   |
+| Competive advantage  | Agility, testability, deploability, scalability, aviability, fault tolerance  |
+| Сроки и бюджет  | Simplicity, feasibility(осуществимость)  |
