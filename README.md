@@ -719,6 +719,8 @@ https://detekt.dev/docs/intro
 #### Cohesion
 Cohesion описывает насколько крепкий класс внутри и насколько сложно его разделить на составные части. Чем выше Cohesion, тем лучше.
 
+Примеры приведены по ссылке - [Cohesion](https://github.com/PortnovAlex80/enterprise_top/blob/main/NFRs.md#cohesion-%D1%81%D1%86%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C).
+
 #### Coupling
 Coupling описывает взаимодействие класса с остальной частью приложения. Чем меньше Coupling, тем лучше.
 
