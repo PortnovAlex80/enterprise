@@ -6,7 +6,7 @@ https://gitlab.com/groups/string-concat-enterprise
 
 # Разработка Enterprise-приложений
 
-> ### "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
+> "Quod est rigens et durum, frangitur. Quod est flexibile et cedens, vincit." - Lao Tzu
 > _То, что жесткое и твердое, ломается. То, что гибкое и податливое, преодолевает. - Лао-Цзы_
 
 <p align="justify">
